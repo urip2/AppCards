@@ -1,7 +1,7 @@
 //
 //  ViewController.swift
 //  CardsGames
-//
+// Go!
 //  Created by Михаил Коновалов on 19.09.2018.
 //  Copyright © 2018 KM. All rights reserved.
 //============================================
