@@ -22,43 +22,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" image="AppCard" translatesAutoresizingMaskIntoConstraints="NO" id="z9b-ob-Glb">
-                                <rect key="frame" x="273" y="142" width="120" height="120"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guess the cards" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7F-gH-vd4">
-                                <rect key="frame" x="0.0" y="20" width="667" height="53"/>
-                                <fontDescription key="fontDescription" name="Soupertrouper3D" family="Soupertrouper" pointSize="44"/>
-                                <color key="textColor" red="0.42352941176470588" green="0.41960784313725491" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2018 uripsoft. All rights reserved." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7x7-Ud-hpQ">
-                                <rect key="frame" x="126" y="331" width="414" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2018 uripsoft. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7x7-Ud-hpQ">
+                                <rect key="frame" x="134" y="303.5" width="399" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" image="AppCard" translatesAutoresizingMaskIntoConstraints="NO" id="z9b-ob-Glb">
+                                <rect key="frame" x="293.5" y="147.5" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="6PS-k9-RKz"/>
+                                    <constraint firstAttribute="width" constant="80" id="Ngs-MT-sks"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="WYv-iE-5Mv"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="gbA-RN-Mlo"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guess the cards" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7F-gH-vd4">
+                                <rect key="frame" x="184.5" y="47.5" width="298" height="53"/>
+                                <fontDescription key="fontDescription" name="Soupertrouper3D" family="Soupertrouper" pointSize="44"/>
+                                <color key="textColor" red="0.42352941176470588" green="0.41960784313725491" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000000000002" green="0.74117647058823533" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottomMargin" secondItem="o7F-gH-vd4" secondAttribute="bottom" constant="302" id="2qX-Au-E9e"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7x7-Ud-hpQ" secondAttribute="trailing" constant="127" id="8hx-fg-nSs"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7x7-Ud-hpQ" secondAttribute="bottom" constant="20" id="AZ8-la-y7a"/>
-                            <constraint firstItem="z9b-ob-Glb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="273" id="Bnp-8U-UAs"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o7F-gH-vd4" secondAttribute="trailing" id="GJ4-pG-9jV"/>
-                            <constraint firstItem="o7F-gH-vd4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KEi-hH-Bhn"/>
-                            <constraint firstItem="7x7-Ud-hpQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="331" id="LC3-08-ItU"/>
-                            <constraint firstItem="z9b-ob-Glb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="142" id="NEK-e6-O0Q"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="z9b-ob-Glb" secondAttribute="bottom" constant="113" id="TFy-hl-LKB"/>
-                            <constraint firstItem="o7F-gH-vd4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="bgH-0o-0YQ"/>
-                            <constraint firstItem="7x7-Ud-hpQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="dke-OZ-1iu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z9b-ob-Glb" secondAttribute="trailing" constant="274" id="r1f-G6-rRH"/>
+                            <constraint firstItem="z9b-ob-Glb" firstAttribute="top" secondItem="o7F-gH-vd4" secondAttribute="bottom" constant="47" id="1Ao-oQ-rRX"/>
+                            <constraint firstItem="z9b-ob-Glb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="JxF-tH-YhW"/>
+                            <constraint firstItem="z9b-ob-Glb" firstAttribute="centerX" secondItem="7x7-Ud-hpQ" secondAttribute="centerX" id="Oq6-9b-j7U"/>
+                            <constraint firstItem="7x7-Ud-hpQ" firstAttribute="top" secondItem="z9b-ob-Glb" secondAttribute="bottom" constant="76" id="Rgh-Kq-8a5"/>
+                            <constraint firstItem="z9b-ob-Glb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="X1R-if-sS3"/>
+                            <constraint firstItem="z9b-ob-Glb" firstAttribute="centerX" secondItem="o7F-gH-vd4" secondAttribute="centerX" id="luL-58-LcJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.623688155922046" y="373.60000000000002"/>
+            <point key="canvasLocation" x="51.760563380281688" y="373.125"/>
         </scene>
     </scenes>
     <resources>
