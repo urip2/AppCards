@@ -1,6 +1,6 @@
 //
 //  CardModel.swift
-//  
+//  Go!!!
 //
 //  Created by Михаил Коновалов on 20.09.2018.
 //
