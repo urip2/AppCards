@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Soupertrouper-3D_41707.ttf">
+            <string>Soupertrouper3D</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" image="AppCard" translatesAutoresizingMaskIntoConstraints="NO" id="z9b-ob-Glb">
+                                <rect key="frame" x="244" y="102" width="180" height="175"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guess the cards" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7F-gH-vd4">
+                                <rect key="frame" x="20" y="20" width="627" height="53"/>
+                                <fontDescription key="fontDescription" name="Soupertrouper3D" family="Soupertrouper" pointSize="44"/>
+                                <color key="textColor" red="0.42352941176470588" green="0.41960784313725491" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© uripsoft" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7x7-Ud-hpQ">
+                                <rect key="frame" x="289" y="314" width="90" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000000000002" green="0.74117647058823533" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="z9b-ob-Glb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="224" id="2LE-uM-SJp"/>
+                            <constraint firstItem="7x7-Ud-hpQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="289" id="3Wo-Zy-VUK"/>
+                            <constraint firstItem="7x7-Ud-hpQ" firstAttribute="top" secondItem="z9b-ob-Glb" secondAttribute="bottom" constant="37" id="48v-e0-XIl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="o7F-gH-vd4" secondAttribute="trailing" id="4w8-0E-vuH"/>
+                            <constraint firstItem="z9b-ob-Glb" firstAttribute="top" secondItem="o7F-gH-vd4" secondAttribute="bottom" constant="29" id="FXr-v1-YrR"/>
+                            <constraint firstItem="7x7-Ud-hpQ" firstAttribute="centerX" secondItem="z9b-ob-Glb" secondAttribute="centerX" id="QLm-hf-Xgx"/>
+                            <constraint firstItem="o7F-gH-vd4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="20" id="WOY-o3-mAc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="z9b-ob-Glb" secondAttribute="trailing" constant="223" id="gWe-G7-IWh"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="z9b-ob-Glb" secondAttribute="bottom" constant="98" id="hEi-6l-mxl"/>
+                            <constraint firstItem="o7F-gH-vd4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="oxL-CW-RWx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.623688155922046" y="373.60000000000002"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AppCard" width="60" height="60"/>
+    </resources>
+</document>
